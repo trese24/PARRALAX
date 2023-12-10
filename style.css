@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+section {
+	position: relative;
+	height: 120vh;
+	overflow: hidden;
+}
+
+#bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(./Img/2.jpg);
+	background-size: calc(100%	 + var(--x));
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#bg1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(./Img/5.jpg);
+	background-size: calc(100% + var(--x));
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#bg2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(./Img/8.jpg);
+	background-size: calc(100% + var(--x));
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#bg3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(./Img/5.jpg);
+	background-size: calc(100% + var(--x));
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#bg4 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(./Img/11.jpg);
+	background-size: calc(100% + var(--x));
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#bg5 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(./Img/14.jpg);
+	background-size: calc(100% + var(--x));
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#bg6 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(./Img/17.jpg);
+	background-size: calc(100% + var(--x));
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#bg7 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(./Img/20.jpg);
+	background-size: calc(100% + var(--x));
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#bg8 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(./Img/23.jpg);
+	background-size: calc(100% + var(--x));
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.girl {
+	position: absolute;
+	top: 10;
+	width: 60000px;
+	left: 70%;
+	max-width: calc(400px - var(--x)/50);
+}
+
+h2 {
+	position: absolute;
+	top: 50%;
+	color: #fff;
+	font-size: 8rem;
+	text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+	transform: translate(calc(100% - var(--x) * 2), -50%);
+}
